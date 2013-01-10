@@ -1,0 +1,93 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-07 14:30+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\formtest\fields.py:11
+msgid "That's not the right word, bro!"
+msgstr "That's not the right word, bro!"
+
+#: .\formtest\fields.py:24
+msgid "The confirmation code is invalid!"
+msgstr "The confirmation code is invalid!"
+
+#: .\formtest\settings.py:40
+msgid "French"
+msgstr "French"
+
+#: .\formtest\settings.py:41
+msgid "English"
+msgstr "English"
+
+#: .\formtest\templates\page.html.py:13
+msgid "Basic page title"
+msgstr "Basic page title"
+
+#: .\formtest\templates\myform\chicken.html.py:21
+msgid "My first form"
+msgstr "My first form--"
+
+#: .\formtest\templates\myform\chicken.html.py:23
+msgid "Current language:"
+msgstr "Current language:"
+
+#: .\formtest\templates\myform\index.html.py:10
+msgid "No animal currently created"
+msgstr "No animal currently created"
+
+#: .\myform\forms.py:9
+msgid "To go on the other side!"
+msgstr "To go on the other side!"
+
+#: .\myform\forms.py:10
+msgid "Because he saw some hot chick"
+msgstr "Because he saw some hot chick"
+
+#: .\myform\forms.py:11
+msgid "Because he's an idiot"
+msgstr "Because he's an idiot"
+
+#: .\myform\forms.py:13
+msgid "The title of the entry"
+msgstr "The title of the entry"
+
+#: .\myform\forms.py:14
+msgid "Number of chickens crossing the road"
+msgstr "Number of chickens crossing the road"
+
+#: .\myform\forms.py:15
+msgid "Why did the chicken cross the road?"
+msgstr "Why did the chicken cross the road?"
+
+#: .\myform\forms.py:16
+msgid "Secret:"
+msgstr "Secret:"
+
+#: .\myform\forms.py:17
+msgid "Are you human?"
+msgstr "Are you human?"
+
+#: .\myform\models.py:9
+msgid "Carnivore"
+msgstr "Carnivore"
+
+#: .\myform\models.py:10
+msgid "Veggetarian"
+msgstr "Veggetarian"
+
+#: .\myform\models.py:11
+msgid "Herbivore"
+msgstr "Herbivore"
+

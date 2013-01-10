@@ -1,0 +1,32 @@
+{% extends 'page.html' %}
+{% load i18n %}
+
+{% block js %}
+	{{ block.super }}
+	<script type="text/javascript" src="http://openlayers.org/api/2.12/OpenLayers.js"></script>
+	<script type="text/javascript" src="{{ STATIC_URL }}js/script.js"></script>
+{% endblock %}
+
+{% block body %}
+	<form id="languageForm" action="/i18n/setlang/" method="post">
+		{% csrf_token %}
+		<ul>
+		{% for lang in LANGUAGES %}
+			<li class="lang" langCode="{{ lang.0 }}">{{ lang.1 }}</li>
+		{% endfor %}
+		</ul>
+		<input type="hidden" id="language" name="language" />
+	</form>
+	<input type="button" id="test" value="test" srch="o">
+	<div id="map" class="map"></div>
+	<form id="firsform" action="chicken" method="post">
+		{% csrf_token %}
+		
+		{% trans "My first form" %}
+		<br>
+		{% trans "Current language:" %}{{ lang }}
+		{{ form.as_p }}
+		<p>
+		<input type="submit" value="Sumbit" />
+	</form>
+{% endblock %}

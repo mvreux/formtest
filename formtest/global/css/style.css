@@ -1,0 +1,7 @@
+#languageForm ul{float:right;}
+	li.lang { text-decoration:underline;color:blue; cursor:pointer;list-style-type: none; margin-right:10px;float:left; }
+	
+#firsform {clear:both; padding-top:10px;}
+
+.map { width:512px; height:256px;border:1px solid black; }
+	.map .olControlAttribution{ bottom: 0;font-size:0.8em;}
