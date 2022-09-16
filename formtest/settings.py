@@ -169,4 +169,5 @@ LOGGING = {
             'propagate': True,
         },
     }
-}
+    
+TEST = 'abc'
